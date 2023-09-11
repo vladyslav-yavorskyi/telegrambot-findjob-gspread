@@ -6,7 +6,6 @@ from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.utils.chat_action import ChatActionMiddleware
 
-from google_spread import getClient
 from handlers import router
 
 TOKEN = config('TOKEN')
